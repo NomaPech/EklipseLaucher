@@ -158,8 +158,9 @@ Note that you **cannot** open the DevTools window while using this debug configu
 
 ---
 
-**Thanks to Daniel Scalzi ! (https://github.com/dscalzi)**
+**Thanks to Daniel Scalzi ! (https://github.com/dscalzi)  (https://github.com/dscalzi/HeliosLauncher)**
 
+---
 
 ## Resources
 
