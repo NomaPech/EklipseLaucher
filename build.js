@@ -21,7 +21,7 @@ builder.build({
         appId: 'eklipselauncher',
         productName: 'Eklipse Launcher',
         artifactName: '${productName}-setup-${version}.${ext}',
-        copyright: 'Copyright © 2018-2020 Daniel Scalzi',
+        copyright: '',
         directories: {
             buildResources: 'build',
             output: 'dist'

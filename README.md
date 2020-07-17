@@ -36,7 +36,7 @@ You can download from [GitHub Releases](https://github.com/NomaPech/EklipseLaunc
 
 **Supported Platforms**
 
-If you download from the [Releases](https://github.com/dscalzi/HeliosLauncher/releases) tab, select the installer for your system.
+If you download from the [Releases](https://github.com/NomaPech/EklipseLauncher/releases) tab, select the installer for your system.
 
 | Platform | File |
 | -------- | ---- |
