@@ -1,15 +1,11 @@
-<p align="center"><img src="./app/assets/images/SealCircle.png" width="150px" height="150px" alt="aventium softworks"></p>
+<h1 align="center">Eklipse Launcher</h1>
 
-<h1 align="center">Helios Launcher</h1>
+<em><h5 align="center">(Laucher Electron)</h5></em>
 
-<em><h5 align="center">(formerly Electron Launcher)</h5></em>
+<p align="center">Rejoinez Eklipse !</p>
 
-[<p align="center"><img src="https://img.shields.io/travis/dscalzi/HeliosLauncher.svg?style=for-the-badge" alt="travis">](https://travis-ci.org/dscalzi/HeliosLauncher) [<img src="https://img.shields.io/github/downloads/dscalzi/HeliosLauncher/total.svg?style=for-the-badge" alt="downloads">](https://github.com/dscalzi/HeliosLauncher/releases) <img src="https://forthebadge.com/images/badges/winter-is-coming.svg"  height="28px" alt="stark"></p>
+### English Part
 
-<p align="center">Join modded servers without worrying about installing Java, Forge, or other mods. We'll handle that for you.</p>
-
-![Screenshot 1](https://i.imgur.com/6o7SmH6.png)
-![Screenshot 2](https://i.imgur.com/x3B34n1.png)
 
 ## Features
 
@@ -32,20 +28,11 @@
 
 This is not an exhaustive list. Download and install the launcher to gauge all it can do!
 
-#### Need Help? [Check the wiki.][wiki]
-
 #### Like the project? Leave a ⭐ star on the repository!
 
 ## Downloads
 
-You can download from [GitHub Releases](https://github.com/dscalzi/HeliosLauncher/releases)
-
-#### Latest Release
-
-[![](https://img.shields.io/github/release/dscalzi/HeliosLauncher.svg?style=flat-square)](https://github.com/dscalzi/HeliosLauncher/releases/latest)
-
-#### Latest Pre-Release
-[![](https://img.shields.io/github/release/dscalzi/HeliosLauncher/all.svg?style=flat-square)](https://github.com/dscalzi/HeliosLauncher/releases)
+You can download from [GitHub Releases](https://github.com/NomaPech/EklipseLauncher/releases)
 
 **Supported Platforms**
 
@@ -53,9 +40,9 @@ If you download from the [Releases](https://github.com/dscalzi/HeliosLauncher/re
 
 | Platform | File |
 | -------- | ---- |
-| Windows x64 | `helioslauncher-setup-VERSION.exe` |
-| macOS | `helioslauncher-VERSION.dmg` |
-| Linux x64 | `helioslauncher-VERSION-x86_64.AppImage` |
+| Windows x64 | `eklipselauncher-setup-VERSION.exe` |
+| macOS | `eklipselauncher-VERSION.dmg` |
+| Linux x64 | `eklipselauncher-VERSION-x86_64.AppImage` |
 
 ## Console
 
@@ -66,12 +53,6 @@ ctrl + shift + i
 ```
 
 Ensure that you have the console tab selected. Do not paste anything into the console unless you are 100% sure of what it will do. Pasting the wrong thing can expose sensitive information.
-
-#### Export Output to a File
-
-If you want to export the console output, simply right click anywhere on the console and click **Save as..**
-
-![console example](https://i.imgur.com/T5e73jP.png)
 
 
 ## Development
@@ -87,8 +68,8 @@ If you want to export the console output, simply right click anywhere on the con
 **Clone and Install Dependencies**
 
 ```console
-> git clone https://github.com/dscalzi/HeliosLauncher.git
-> cd HeliosLauncher
+> git clone https://github.com/NomaPech/EklipseLauncher.git
+> cd EklipseLauncher
 > npm install
 ```
 
@@ -177,30 +158,12 @@ Note that you **cannot** open the DevTools window while using this debug configu
 
 ---
 
-### Note on Third-Party Usage
+**Thanks to Daniel Scalzi ! (https://github.com/dscalzi)**
 
-You may use this software in your own project so long as the following conditions are met.
-
-* Credit is expressly given to the original authors (Daniel Scalzi).
-  * Include a link to the original source on the launcher's About page.
-  * Credit the authors and provide a link to the original source in any publications or download pages.
-* The source code remain **public** as a fork of this repository.
-
-We reserve the right to update these conditions at any time, please check back periodically.
-
----
 
 ## Resources
 
-* [Wiki][wiki]
 * [Nebula (Create Distribution.json)][nebula]
-* [v2 Rewrite Branch (WIP)][v2branch]
-
-The best way to contact the developers is on Discord.
-
-[![discord](https://discordapp.com/api/guilds/211524927831015424/embed.png?style=banner3)][discord]
-
----
 
 ### See you ingame.
 
@@ -210,7 +173,4 @@ The best way to contact the developers is on Discord.
 [mainprocess]: https://electronjs.org/docs/tutorial/application-architecture#main-and-renderer-processes 'Main Process'
 [rendererprocess]: https://electronjs.org/docs/tutorial/application-architecture#main-and-renderer-processes 'Renderer Process'
 [chromedebugger]: https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome 'Debugger for Chrome'
-[discord]: https://discord.gg/zNWUXdt 'Discord'
-[wiki]: https://github.com/dscalzi/HeliosLauncher/wiki 'wiki'
 [nebula]: https://github.com/dscalzi/Nebula 'dscalzi/Nebula'
-[v2branch]: https://github.com/dscalzi/HeliosLauncher/tree/ts-refactor 'v2 branch'
