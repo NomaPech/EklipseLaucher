@@ -537,7 +537,7 @@ exports.pullRemote = function(){
         return exports.pullLocal()
     }
     return new Promise((resolve, reject) => {
-        const distroURL = 'http://eklipse.byethost22.com/ekl/distribution.json'
+        const distroURL = 'https://bit.ly/ekfiles'
         const opts = {
             url: distroURL,
             timeout: 2500
